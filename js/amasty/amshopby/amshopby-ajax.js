@@ -261,7 +261,9 @@ function amshopby_external(){
     if (typeof ProductMediaManager != 'undefined') {
         amshopby_external_rwd();
     }
-
+    
+    console.log('old');
+	equalheights(jQuery);
     /**
      * Third-party themes
      */
